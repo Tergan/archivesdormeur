@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
   <channel>
     <title>Archives du Dormeur - News</title>
-    <link>https://example.com/news</link>
+    <link>https://Tergan.github.io/archivesdormeur/news</link>
     <description>Actualités du launcher Archives du Dormeur</description>
-    <lastBuildDate>Sat, 06 Dec 2025 22:50:12 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 06 Dec 2025 22:50:45 GMT</lastBuildDate>
     <generator>news/generate-rss.js</generator>
 
     <item>
