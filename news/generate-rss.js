@@ -12,6 +12,7 @@ const OUTPUT_FILE = path.join(__dirname, 'news.xml')
 
 // Change this to your public URL base (e.g. https://username.github.io/archivesdormeur/news)
 const NEWS_SITE_URL = (process.env.NEWS_SITE_URL || 'https://example.com/news').replace(/\/$/, '')
+const DISABLE_LINKS = process.env.NEWS_DISABLE_LINKS !== 'false' // true by default to avoid dead links.
 const CHANNEL_TITLE = 'Archives du Dormeur - News'
 const CHANNEL_DESCRIPTION = 'Actualités du launcher Archives du Dormeur'
 
@@ -30,15 +31,16 @@ function stripHtml(html = '') {
 
 function buildItemXml(item) {
     const description = stripHtml(item.html)
+    const commentsBlock = item.commentsLink ? `
+      <comments>${item.commentsLink}</comments>
+      <slash:comments>${item.commentCount}</slash:comments>` : ''
     return `
     <item>
       <title>${escapeXml(item.title)}</title>
-      <link>${item.link}</link>
-      <guid>${item.guid}</guid>
+      <link>${item.link || ''}</link>
+      <guid>${item.guid || item.link || ''}</guid>
       <pubDate>${item.date.toUTCString()}</pubDate>
-      <dc:creator>${escapeXml(item.author)}</dc:creator>
-      <comments>${item.commentsLink}</comments>
-      <slash:comments>${item.commentCount}</slash:comments>
+      <dc:creator>${escapeXml(item.author)}</dc:creator>${commentsBlock}
       <description><![CDATA[${description}]]></description>
       <content:encoded><![CDATA[${item.html}]]></content:encoded>
     </item>`
@@ -68,7 +70,7 @@ function loadPosts() {
         validatePostData(data, file)
 
         const slug = data.slug || path.basename(file, path.extname(file))
-        const linkBase = data.link || `${NEWS_SITE_URL}/${slug}`
+        const linkBase = DISABLE_LINKS ? '' : (data.link || `${NEWS_SITE_URL}/${slug}`)
         const date = new Date(data.date)
         if (isNaN(date.getTime())) {
             throw new Error(`Invalid date in ${file}: ${data.date}`)
@@ -81,8 +83,8 @@ function loadPosts() {
             date,
             link: linkBase,
             guid: data.guid || linkBase,
-            commentsLink: data.commentsLink || `${linkBase}#comments`,
-            commentCount: Number.isFinite(data.comments) ? data.comments : 0,
+            commentsLink: DISABLE_LINKS ? '' : (data.commentsLink || (linkBase ? `${linkBase}#comments` : '')),
+            commentCount: Number.isFinite(data.comments) && !DISABLE_LINKS ? data.comments : 0,
             html
         })
     }
