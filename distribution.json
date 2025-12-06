@@ -220,6 +220,28 @@
           }
         },
         {
+          "id": "archivesdimension",
+          "name": "Archives Dimension",
+          "type": "File",
+          "artifact": {
+            "size": 5541228,
+            "MD5": "A1D872A3DAFFB204F43DE879C460C7DB",
+            "path": "mods/archivesdimension-1.0.0.jar",
+            "url": "https://raw.githubusercontent.com/Tergan/archivesdormeur/main/mods/archivesdimension-1.0.0.jar"
+          }
+        },
+        {
+          "id": "servers-dat",
+          "name": "Serveur par défaut",
+          "type": "File",
+          "artifact": {
+            "size": 74,
+            "MD5": "335ED8F494A926801BC7DB09E4C40C41",
+            "path": "servers.dat",
+            "url": "https://raw.githubusercontent.com/Tergan/archivesdormeur/main/servers.dat"
+          }
+        },
+        {
           "id": "photon",
           "name": "Photon v1.2a AD",
           "type": "File",
