@@ -1,6 +1,6 @@
 ﻿{
   "version": "1.0.0",
-  "rss": "",
+  "rss": "https://tergan.github.io/archivesdormeur/news/news.xml",
   "servers": [
     {
       "id": "archives-fabric-1-21-10",
