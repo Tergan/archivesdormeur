@@ -224,8 +224,8 @@
           "name": "Archives Dimension",
           "type": "File",
           "artifact": {
-            "size": 5541228,
-            "MD5": "A1D872A3DAFFB204F43DE879C460C7DB",
+            "size": 5540229,
+            "MD5": "a53b367a2ece479f529152be44d34270",
             "path": "mods/archivesdimension-1.0.0.jar",
             "url": "https://raw.githubusercontent.com/Tergan/archivesdormeur/main/mods/archivesdimension-1.0.0.jar"
           }
