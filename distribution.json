@@ -1,4 +1,4 @@
-{
+﻿{
   "version": "1.0.0",
   "rss": "",
   "servers": [
@@ -224,8 +224,8 @@
           "name": "Archives Dimension",
           "type": "File",
           "artifact": {
-            "size": 5540229,
-            "MD5": "a53b367a2ece479f529152be44d34270",
+            "size": 5542318,
+            "MD5": "230e1347663bf010a2d55c1017a178ab",
             "path": "mods/archivesdimension-1.0.0.jar",
             "url": "https://raw.githubusercontent.com/Tergan/archivesdormeur/main/mods/archivesdimension-1.0.0.jar"
           }
@@ -239,6 +239,17 @@
             "MD5": "335ED8F494A926801BC7DB09E4C40C41",
             "path": "servers.dat",
             "url": "https://raw.githubusercontent.com/Tergan/archivesdormeur/main/servers.dat"
+          }
+        },
+        {
+          "id": "options-clouds-off",
+          "name": "Options (clouds off par défaut)",
+          "type": "File",
+          "artifact": {
+            "size": 41,
+            "MD5": "E40B2A80C435A8A86FFAE27AAFC5142B",
+            "path": "options.txt",
+            "url": "https://raw.githubusercontent.com/Tergan/archivesdormeur/main/net/options.txt"
           }
         },
         {
