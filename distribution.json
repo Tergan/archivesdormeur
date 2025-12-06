@@ -18,23 +18,23 @@
       "autoconnect": true,
       "modules": [
         {
-          "id": "net.fabricmc:fabric-loader:0.17.2",
-          "name": "Fabric Loader 0.17.2",
+          "id": "net.fabricmc:fabric-loader:0.18.1",
+          "name": "Fabric Loader 0.18.1",
           "type": "Fabric",
           "artifact": {
-            "size": 1915305,
-            "MD5": "72dd698d701202d46303fc913cfcbf23",
-            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.17.2/fabric-loader-0.17.2.jar"
+            "size": 1944103,
+            "MD5": "eee78db537e19297a4a5966bdad51291",
+            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.18.1/fabric-loader-0.18.1.jar"
           },
           "subModules": [
             {
-              "id": "1.21.10-fabric-0.17.2",
+              "id": "1.21.10-fabric-0.18.1",
               "name": "Fabric Loader Profile 1.21.10",
               "type": "VersionManifest",
               "artifact": {
                 "size": 2850,
-                "MD5": "f9728da6956514d9f130ca5bf29e6f64",
-                "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.10/0.17.2/profile/json"
+                "MD5": "98fb221f16fc056fc99c5ac333bc4f9f",
+                "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.10/0.18.1/profile/json"
               }
             },
             {
