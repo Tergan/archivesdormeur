@@ -8,7 +8,7 @@
       "description": "Fabric 1.21.10 pack for Archives du Dormeur",
       "icon": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/app/assets/images/SealCircle.png",
       "version": "1.0.0",
-      "address": "localhost:25565",
+      "address": "archives.tergan.dev:25565",
       "minecraftVersion": "1.21.10",
       "javaOptions": {
         "supported": ">=21.x",
