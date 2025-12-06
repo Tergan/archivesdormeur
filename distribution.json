@@ -209,6 +209,17 @@
           }
         },
         {
+          "id": "replaymod",
+          "name": "Replay Mod",
+          "type": "File",
+          "artifact": {
+            "size": 14994589,
+            "MD5": "1b86743afabea1625763ca0e74d53830",
+            "path": "mods/replaymod-1.21.10-2.6.24.jar",
+            "url": "https://cdn.modrinth.com/data/Nv2fQJo5/versions/Xl13rxnj/replaymod-1.21.10-2.6.24.jar"
+          }
+        },
+        {
           "id": "photon",
           "name": "Photon v1.2a AD",
           "type": "File",
