@@ -1,0 +1,225 @@
+{
+  "version": "1.0.0",
+  "rss": "",
+  "servers": [
+    {
+      "id": "archives-fabric-1-21-10",
+      "name": "Archives du Dormeur",
+      "description": "Fabric 1.21.10 pack for Archives du Dormeur",
+      "icon": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/app/assets/images/SealCircle.png",
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.21.10",
+      "javaOptions": {
+        "supported": ">=21.x",
+        "suggestedMajor": 21
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.17.2",
+          "name": "Fabric Loader 0.17.2",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1915305,
+            "MD5": "72dd698d701202d46303fc913cfcbf23",
+            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.17.2/fabric-loader-0.17.2.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.10-fabric-0.17.2",
+              "name": "Fabric Loader Profile 1.21.10",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2850,
+                "MD5": "f9728da6956514d9f130ca5bf29e6f64",
+                "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.10/0.17.2/profile/json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.8",
+              "name": "ASM",
+              "type": "Library",
+              "artifact": {
+                "size": 126113,
+                "MD5": "f5adf3bfc54fb3d2cd8e3a1f275084bc",
+                "url": "https://maven.fabricmc.net/org/ow2/asm/asm/9.8/asm-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.8",
+              "name": "ASM Analysis",
+              "type": "Library",
+              "artifact": {
+                "size": 35151,
+                "MD5": "3d63508405f5610fc2ea673ff5471553",
+                "url": "https://maven.fabricmc.net/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.8",
+              "name": "ASM Commons",
+              "type": "Library",
+              "artifact": {
+                "size": 73498,
+                "MD5": "c8c3d9ccf240144e74d94ff658b024c9",
+                "url": "https://maven.fabricmc.net/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.8",
+              "name": "ASM Tree",
+              "type": "Library",
+              "artifact": {
+                "size": 51934,
+                "MD5": "4ab1aaec43c77a2d9b56e6d6d496f705",
+                "url": "https://maven.fabricmc.net/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.8",
+              "name": "ASM Util",
+              "type": "Library",
+              "artifact": {
+                "size": 94559,
+                "MD5": "62498ef324bdab15f407d703f7d78d19",
+                "url": "https://maven.fabricmc.net/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.16.3+mixin.0.8.7",
+              "name": "Sponge Mixin",
+              "type": "Library",
+              "artifact": {
+                "size": 1504156,
+                "MD5": "aa4a43d5b0e9abf4fcb57520ffeb0019",
+                "url": "https://maven.fabricmc.net/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.10",
+              "name": "Fabric Intermediary 1.21.10",
+              "type": "Library",
+              "artifact": {
+                "size": 778652,
+                "MD5": "612031a185c7493cc93e908a875b72cc",
+                "url": "https://maven.fabricmc.net/net/fabricmc/intermediary/1.21.10/intermediary-1.21.10.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "fabric-api",
+          "name": "Fabric API",
+          "type": "File",
+          "artifact": {
+            "size": 2376234,
+            "MD5": "b263728ad8fceb348162ac0b18c02de6",
+            "path": "mods/fabric-api-0.138.3%2B1.21.10.jar",
+            "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/dQ3p80zK/fabric-api-0.138.3%2B1.21.10.jar"
+          }
+        },
+        {
+          "id": "iris",
+          "name": "Iris",
+          "type": "File",
+          "artifact": {
+            "size": 2708042,
+            "MD5": "d0695462e2d28cc581f87311614e2052",
+            "path": "mods/iris-fabric-1.9.6%2Bmc1.21.9.jar",
+            "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/r1MZ1Bpv/iris-fabric-1.9.6%2Bmc1.21.9.jar"
+          }
+        },
+        {
+          "id": "lithostitched",
+          "name": "Lithostitched",
+          "type": "File",
+          "artifact": {
+            "size": 545450,
+            "MD5": "a038385ee1d7ae03d8491f39b222a7d5",
+            "path": "mods/lithostitched-1.5.1-fabric-1.21.9.jar",
+            "url": "https://cdn.modrinth.com/data/XaDC71GB/versions/OHVYggvo/lithostitched-1.5.1-fabric-1.21.9.jar"
+          }
+        },
+        {
+          "id": "tectonic",
+          "name": "Tectonic",
+          "type": "File",
+          "artifact": {
+            "size": 316432,
+            "MD5": "2e22499eeff0e775c4224f554ad527a7",
+            "path": "mods/tectonic-3.0.17-fabric-1.21.10.jar",
+            "url": "https://cdn.modrinth.com/data/lWDHr9jE/versions/kL6i6vRY/tectonic-3.0.17-fabric-1.21.10.jar"
+          }
+        },
+        {
+          "id": "terralith",
+          "name": "Terralith",
+          "type": "File",
+          "artifact": {
+            "size": 2896128,
+            "MD5": "d58b13ca3f6f2eff9db1b08dba313d5b",
+            "path": "mods/Terralith_1.21.x_v2.5.13.jar",
+            "url": "https://cdn.modrinth.com/data/8oi3bsk5/versions/JKg71Gq0/Terralith_1.21.x_v2.5.13.jar"
+          }
+        },
+        {
+          "id": "sodium",
+          "name": "Sodium",
+          "type": "File",
+          "artifact": {
+            "size": 1676903,
+            "MD5": "57a54742a51ae95bdc47e83f7245a9e2",
+            "path": "mods/sodium-fabric-0.7.3%2Bmc1.21.10.jar",
+            "url": "https://cdn.modrinth.com/data/AANobbMI/versions/sFfidWgd/sodium-fabric-0.7.3%2Bmc1.21.10.jar"
+          }
+        },
+        {
+          "id": "distant-horizons",
+          "name": "Distant Horizons",
+          "type": "File",
+          "artifact": {
+            "size": 25548067,
+            "MD5": "9bac5de9ab8e32134203dffc5070b1e0",
+            "path": "mods/DistantHorizons-2.3.6-b-1.21.10-fabric-neoforge.jar",
+            "url": "https://cdn.modrinth.com/data/uCdwusMi/versions/9Y10ZuWP/DistantHorizons-2.3.6-b-1.21.10-fabric-neoforge.jar"
+          }
+        },
+        {
+          "id": "noisium-forked",
+          "name": "Noisium",
+          "type": "File",
+          "artifact": {
+            "size": 225285,
+            "MD5": "6e4b9580dd8a76c432fb403351c8fd25",
+            "path": "mods/noisium-fabric-2.8.1%2Bmc1.21.10.jar",
+            "url": "https://cdn.modrinth.com/data/hasdd01q/versions/XZDwl0x7/noisium-fabric-2.8.1%2Bmc1.21.10.jar"
+          }
+        },
+        {
+          "id": "voicechat",
+          "name": "Simple Voice Chat",
+          "type": "File",
+          "artifact": {
+            "size": 5500902,
+            "MD5": "f2900264d88e55135026c4b3694991be",
+            "path": "mods/voicechat-fabric-1.21.10-2.6.6.jar",
+            "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/BjR2lc4k/voicechat-fabric-1.21.10-2.6.6.jar"
+          }
+        },
+        {
+          "id": "photon",
+          "name": "Photon v1.2a AD",
+          "type": "File",
+          "artifact": {
+            "size": 9333946,
+            "MD5": "CB5C79FBE8E9050643753079DC54C20D",
+            "path": "shaderpacks/photon_v1.2a_ad.zip",
+            "url": "https://raw.githubusercontent.com/Tergan/archivesdormeur/main/shaders/photon_v1.2a_ad.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
