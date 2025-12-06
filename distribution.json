@@ -1,12 +1,12 @@
 ﻿{
-  "version": "1.0.0",
+  "version": "1.0.1",
   "rss": "https://tergan.github.io/archivesdormeur/news/news.xml",
   "servers": [
     {
       "id": "archives-fabric-1-21-10",
       "name": "Archives du Dormeur",
       "description": "Fabric 1.21.10 pack for Archives du Dormeur",
-      "icon": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/app/assets/images/SealCircle.png",
+      "icon": "https://raw.githubusercontent.com/Tergan/archivesdormeur/main/assets/SealCircle.png",
       "version": "1.0.0",
       "address": "archives.tergan.dev:25565",
       "minecraftVersion": "1.21.10",
