@@ -1,15 +1,15 @@
 {
-  "version": "1.0.2",
+  "version": "1.1.2",
   "rss": "https://tergan.github.io/archivesdormeur/news/news.xml",
   "servers": [
     {
-      "id": "archives-fabric-1-21-10",
+      "id": "archives-fabric-1-21-11",
       "name": "Archives du Dormeur",
-      "description": "Fabric 1.21.10 pack for Archives du Dormeur",
+      "description": "Fabric 1.21.11 pack for Archives du Dormeur",
       "icon": "https://raw.githubusercontent.com/Tergan/archivesdormeur/main/assets/SealCircle.png",
-      "version": "1.0.0",
+      "version": "1.1.2",
       "address": "archives.tergan.dev:25565",
-      "minecraftVersion": "1.21.10",
+      "minecraftVersion": "1.21.11",
       "javaOptions": {
         "supported": ">=21.x",
         "suggestedMajor": 21
@@ -28,13 +28,13 @@
           },
           "subModules": [
             {
-              "id": "1.21.10-fabric-0.18.1",
-              "name": "Fabric Loader Profile 1.21.10",
+              "id": "1.21.11-fabric-0.18.1",
+              "name": "Fabric Loader Profile 1.21.11",
               "type": "VersionManifest",
               "artifact": {
                 "size": 2850,
-                "MD5": "98fb221f16fc056fc99c5ac333bc4f9f",
-                "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.10/0.18.1/profile/json"
+                "MD5": "fc6ba8af8a91dea5d5bcfdc1881db1de",
+                "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.11/0.18.1/profile/json"
               }
             },
             {
@@ -98,13 +98,13 @@
               }
             },
             {
-              "id": "net.fabricmc:intermediary:1.21.10",
-              "name": "Fabric Intermediary 1.21.10",
+              "id": "net.fabricmc:intermediary:1.21.11",
+              "name": "Fabric Intermediary 1.21.11",
               "type": "Library",
               "artifact": {
-                "size": 778652,
-                "MD5": "612031a185c7493cc93e908a875b72cc",
-                "url": "https://maven.fabricmc.net/net/fabricmc/intermediary/1.21.10/intermediary-1.21.10.jar"
+                "size": 797685,
+                "MD5": "54a87ea75e373bc39b2d36df201231ea",
+                "url": "https://maven.fabricmc.net/net/fabricmc/intermediary/1.21.11/intermediary-1.21.11.jar"
               }
             }
           ]
@@ -114,65 +114,10 @@
           "name": "Fabric API",
           "type": "File",
           "artifact": {
-            "size": 2376234,
-            "MD5": "b263728ad8fceb348162ac0b18c02de6",
-            "path": "mods/fabric-api-0.138.3%2B1.21.10.jar",
-            "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/dQ3p80zK/fabric-api-0.138.3%2B1.21.10.jar"
-          }
-        },
-        {
-          "id": "iris",
-          "name": "Iris",
-          "type": "File",
-          "artifact": {
-            "size": 2708042,
-            "MD5": "d0695462e2d28cc581f87311614e2052",
-            "path": "mods/iris-fabric-1.9.6%2Bmc1.21.9.jar",
-            "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/r1MZ1Bpv/iris-fabric-1.9.6%2Bmc1.21.9.jar"
-          }
-        },
-        {
-          "id": "lithostitched",
-          "name": "Lithostitched",
-          "type": "File",
-          "artifact": {
-            "size": 545450,
-            "MD5": "a038385ee1d7ae03d8491f39b222a7d5",
-            "path": "mods/lithostitched-1.5.1-fabric-1.21.9.jar",
-            "url": "https://cdn.modrinth.com/data/XaDC71GB/versions/OHVYggvo/lithostitched-1.5.1-fabric-1.21.9.jar"
-          }
-        },
-        {
-          "id": "tectonic",
-          "name": "Tectonic",
-          "type": "File",
-          "artifact": {
-            "size": 316432,
-            "MD5": "2e22499eeff0e775c4224f554ad527a7",
-            "path": "mods/tectonic-3.0.17-fabric-1.21.10.jar",
-            "url": "https://cdn.modrinth.com/data/lWDHr9jE/versions/kL6i6vRY/tectonic-3.0.17-fabric-1.21.10.jar"
-          }
-        },
-        {
-          "id": "terralith",
-          "name": "Terralith",
-          "type": "File",
-          "artifact": {
-            "size": 2896128,
-            "MD5": "d58b13ca3f6f2eff9db1b08dba313d5b",
-            "path": "mods/Terralith_1.21.x_v2.5.13.jar",
-            "url": "https://cdn.modrinth.com/data/8oi3bsk5/versions/JKg71Gq0/Terralith_1.21.x_v2.5.13.jar"
-          }
-        },
-        {
-          "id": "sodium",
-          "name": "Sodium",
-          "type": "File",
-          "artifact": {
-            "size": 1676903,
-            "MD5": "57a54742a51ae95bdc47e83f7245a9e2",
-            "path": "mods/sodium-fabric-0.7.3%2Bmc1.21.10.jar",
-            "url": "https://cdn.modrinth.com/data/AANobbMI/versions/sFfidWgd/sodium-fabric-0.7.3%2Bmc1.21.10.jar"
+            "size": 2123526,
+            "MD5": "0e1d978f9bcd4fa2ae8e4c09e0196daf",
+            "path": "mods/fabric-api-0.139.5+1.21.11.jar",
+            "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/KhCFoeip/fabric-api-0.139.5%2B1.21.11.jar"
           }
         },
         {
@@ -180,21 +125,10 @@
           "name": "Distant Horizons",
           "type": "File",
           "artifact": {
-            "size": 25548067,
-            "MD5": "9bac5de9ab8e32134203dffc5070b1e0",
-            "path": "mods/DistantHorizons-2.3.6-b-1.21.10-fabric-neoforge.jar",
-            "url": "https://cdn.modrinth.com/data/uCdwusMi/versions/9Y10ZuWP/DistantHorizons-2.3.6-b-1.21.10-fabric-neoforge.jar"
-          }
-        },
-        {
-          "id": "noisium-forked",
-          "name": "Noisium",
-          "type": "File",
-          "artifact": {
-            "size": 225285,
-            "MD5": "6e4b9580dd8a76c432fb403351c8fd25",
-            "path": "mods/noisium-fabric-2.8.1%2Bmc1.21.10.jar",
-            "url": "https://cdn.modrinth.com/data/hasdd01q/versions/XZDwl0x7/noisium-fabric-2.8.1%2Bmc1.21.10.jar"
+            "size": 25620609,
+            "MD5": "9c415ca6092ae9e151b190203820c6bd",
+            "path": "mods/DistantHorizons-2.4.2-b-1.21.11-fabric-neoforge.jar",
+            "url": "https://cdn.modrinth.com/data/uCdwusMi/versions/MEUmB9jk/DistantHorizons-2.4.2-b-1.21.11-fabric-neoforge.jar"
           }
         },
         {
@@ -202,32 +136,10 @@
           "name": "Simple Voice Chat",
           "type": "File",
           "artifact": {
-            "size": 5500902,
-            "MD5": "f2900264d88e55135026c4b3694991be",
-            "path": "mods/voicechat-fabric-1.21.10-2.6.6.jar",
-            "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/BjR2lc4k/voicechat-fabric-1.21.10-2.6.6.jar"
-          }
-        },
-        {
-          "id": "replaymod",
-          "name": "Replay Mod",
-          "type": "File",
-          "artifact": {
-            "size": 14994589,
-            "MD5": "1b86743afabea1625763ca0e74d53830",
-            "path": "mods/replaymod-1.21.10-2.6.24.jar",
-            "url": "https://cdn.modrinth.com/data/Nv2fQJo5/versions/Xl13rxnj/replaymod-1.21.10-2.6.24.jar"
-          }
-        },
-        {
-          "id": "archivesdimension",
-          "name": "Archives Dimension",
-          "type": "File",
-          "artifact": {
-            "size": 5542318,
-            "MD5": "230e1347663bf010a2d55c1017a178ab",
-            "path": "mods/archivesdimension-1.0.0.jar",
-            "url": "https://raw.githubusercontent.com/Tergan/archivesdormeur/main/mods/archivesdimension-1.0.0.jar"
+            "size": 5564056,
+            "MD5": "6b5cf9a6c4bb10a588bcd5b96ab822e6",
+            "path": "mods/voicechat-fabric-1.21.11-2.6.8.jar",
+            "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/blZQ7nAx/voicechat-fabric-1.21.11-2.6.8.jar"
           }
         },
         {
@@ -243,7 +155,7 @@
         },
         {
           "id": "options-clouds-off",
-          "name": "Options (clouds off par défaut)",
+          "name": "Options (nuages désactivés par défaut)",
           "type": "File",
           "artifact": {
             "size": 41,
