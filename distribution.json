@@ -1,5 +1,5 @@
 {
-  "version": "1.1.3",
+  "version": "1.1.4",
   "rss": "https://tergan.github.io/archivesdormeur/news/news.xml",
   "servers": [
     {
@@ -7,7 +7,7 @@
       "name": "Archives du Dormeur",
       "description": "Fabric 1.21.11 pack for Archives du Dormeur",
       "icon": "https://raw.githubusercontent.com/Tergan/archivesdormeur/main/assets/SealCircle.png",
-      "version": "1.1.3",
+      "version": "1.1.4",
       "address": "archives.tergan.dev:25565",
       "minecraftVersion": "1.21.11",
       "javaOptions": {
@@ -129,6 +129,17 @@
             "MD5": "89d2da66014ce08e851d55a49db2f86b",
             "path": "mods/iris-neoforge-1.10.2+mc1.21.11.jar",
             "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/Gbr8rEDk/iris-neoforge-1.10.2%2Bmc1.21.11.jar"
+          }
+        },
+        {
+          "id": "sodium",
+          "name": "Sodium",
+          "type": "File",
+          "artifact": {
+            "size": 1697685,
+            "MD5": "6ed7ba5bd100d655dd76bb4dc24bb09a",
+            "path": "mods/sodium-fabric-0.8.0+mc1.21.11.jar",
+            "url": "https://cdn.modrinth.com/data/AANobbMI/versions/MLXdfyIk/sodium-fabric-0.8.0%2Bmc1.21.11.jar"
           }
         },
         {
