@@ -1,5 +1,5 @@
 {
-  "version": "1.1.2",
+  "version": "1.1.3",
   "rss": "https://tergan.github.io/archivesdormeur/news/news.xml",
   "servers": [
     {
@@ -7,7 +7,7 @@
       "name": "Archives du Dormeur",
       "description": "Fabric 1.21.11 pack for Archives du Dormeur",
       "icon": "https://raw.githubusercontent.com/Tergan/archivesdormeur/main/assets/SealCircle.png",
-      "version": "1.1.2",
+      "version": "1.1.3",
       "address": "archives.tergan.dev:25565",
       "minecraftVersion": "1.21.11",
       "javaOptions": {
@@ -118,6 +118,17 @@
             "MD5": "0e1d978f9bcd4fa2ae8e4c09e0196daf",
             "path": "mods/fabric-api-0.139.5+1.21.11.jar",
             "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/KhCFoeip/fabric-api-0.139.5%2B1.21.11.jar"
+          }
+        },
+        {
+          "id": "iris",
+          "name": "Iris Shaders",
+          "type": "File",
+          "artifact": {
+            "size": 2733669,
+            "MD5": "89d2da66014ce08e851d55a49db2f86b",
+            "path": "mods/iris-neoforge-1.10.2+mc1.21.11.jar",
+            "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/Gbr8rEDk/iris-neoforge-1.10.2%2Bmc1.21.11.jar"
           }
         },
         {
