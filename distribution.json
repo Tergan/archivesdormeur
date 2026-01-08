@@ -176,17 +176,6 @@
           }
         },
         {
-          "id": "options-clouds-off",
-          "name": "Options (nuages désactivés par défaut)",
-          "type": "File",
-          "artifact": {
-            "size": 41,
-            "MD5": "E40B2A80C435A8A86FFAE27AAFC5142B",
-            "path": "options.txt",
-            "url": "https://raw.githubusercontent.com/Tergan/archivesdormeur/main/options.txt"
-          }
-        },
-        {
           "id": "photon",
           "name": "Photon v1.2a AD",
           "type": "File",
