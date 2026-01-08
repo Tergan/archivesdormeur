@@ -1,6 +1,6 @@
 ---
 title: "Lancement du serveur"
-date: 2024-12-09T12:00:00Z
+date: 2026-01-08T20:00:00Z
 author: "Tergan"
 slug: lancement-serveur
 link: "https://archives.tergan.dev/news/lancement"
