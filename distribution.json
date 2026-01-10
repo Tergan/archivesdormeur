@@ -125,10 +125,10 @@
           "name": "Iris Shaders",
           "type": "File",
           "artifact": {
-            "size": 2793059,
-            "MD5": "574a21ed35c3cfb92f1827a27819a0f3",
-            "path": "mods/iris-fabric-1.10.2+mc1.21.11.jar",
-            "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/ID2pg4dQ/iris-fabric-1.10.2%2Bmc1.21.11.jar"
+            "size": 2795436,
+            "MD5": "697f2e0b37fa335a5a815237690466c9",
+            "path": "mods/iris-fabric-1.10.4+mc1.21.11.jar",
+            "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/Q4YiZeCX/iris-fabric-1.10.4%2Bmc1.21.11.jar"
           }
         },
         {
@@ -136,10 +136,10 @@
           "name": "Sodium",
           "type": "File",
           "artifact": {
-            "size": 1697685,
-            "MD5": "6ed7ba5bd100d655dd76bb4dc24bb09a",
-            "path": "mods/sodium-fabric-0.8.0+mc1.21.11.jar",
-            "url": "https://cdn.modrinth.com/data/AANobbMI/versions/MLXdfyIk/sodium-fabric-0.8.0%2Bmc1.21.11.jar"
+            "size": 1876396,
+            "MD5": "48b94db165ff1d51c3aa440287dd8b7c",
+            "path": "mods/sodium-fabric-0.8.2+mc1.21.11.jar",
+            "url": "https://cdn.modrinth.com/data/AANobbMI/versions/59wygFUQ/sodium-fabric-0.8.2%2Bmc1.21.11.jar"
           }
         },
         {
