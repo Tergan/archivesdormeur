@@ -147,10 +147,10 @@
           "name": "Distant Horizons",
           "type": "File",
           "artifact": {
-            "size": 25620609,
-            "MD5": "9c415ca6092ae9e151b190203820c6bd",
-            "path": "mods/DistantHorizons-2.4.2-b-1.21.11-fabric-neoforge.jar",
-            "url": "https://cdn.modrinth.com/data/uCdwusMi/versions/MEUmB9jk/DistantHorizons-2.4.2-b-1.21.11-fabric-neoforge.jar"
+            "size": 25622435,
+            "MD5": "4e0d67ac7e39408eab644c42ed7b745f",
+            "path": "mods/DistantHorizons-2.4.5-b-1.21.11.jar",
+            "url": "https://cdn.modrinth.com/data/uCdwusMi/versions/GT3Bm3GN/DistantHorizons-2.4.5-b-1.21.11-fabric-neoforge.jar"
           }
         },
         {
